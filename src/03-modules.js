@@ -1,9 +1,9 @@
-import { init } from 'snabbdom/build/package/init'
-import { h } from 'snabbdom/build/package/h'
+import { init } from '../snabbdom/build/package/init'
+import { h } from '../snabbdom/build/package/h'
 
 // 1. 导入模块
-import { styleModule } from 'snabbdom/build/package/modules/style'
-import { eventListenersModule } from 'snabbdom/build/package/modules/eventlisteners'
+import { styleModule } from '../snabbdom/build/package/modules/style'
+import { eventListenersModule } from '../snabbdom/build/package/modules/eventlisteners'
 
 // 2. 注册模块
 const patch = init([

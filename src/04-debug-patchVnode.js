@@ -1,4 +1,5 @@
-import { h, init } from 'snabbdom'
+import { init } from '../snabbdom/build/package/init'
+import { h } from '../snabbdom/build/package/h'
 
 let patch = init([])
 
