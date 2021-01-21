@@ -6,7 +6,6 @@ const patch = init([])
 // 第一个参数：标签+选择器
 // 第二个参数：如果是字符串就是标签中的文本内容
 let vnode = h('div#container.cls', {
-  
   hook: {
     init (vnode) {
       console.log(vnode.elm)
